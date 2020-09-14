@@ -1,0 +1,6 @@
+Pipelines are often used to perform complex operations on data. It is possible
+to put several commands together into a pipeline. Frequently, the commands
+used this way are referred to as filters. Filters take input, change it
+somehow, and then output it. The first one we will try is sort. Imagine we
+want to make a combined list of all of the executable programs in /bin and
+/usr/bin, put them in sorted order, and then view the list
